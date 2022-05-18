@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(247, 240, 232)
+    
+    
+}
+
+body{
+    background: linear-gradient(to top right,rgba(1, 1, 59, 0.90), rgba(95, 93, 93, 0.9)),
+    url(./assets/2montanha-grande.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    margin-left: 3.5vw;
+}
+
+h3{
+    font-size: 6vh;
+    padding-left: 5vh;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 30vw;
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 7vw;
+}
+
+
+
+
+.meio{
+    display: flex;
+    width: 42vw;
+    justify-content: space-between;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+}
+
+
+#circulo{
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(247, 240, 232);
+    border-radius: 50%;
+}
+
+#data{
+    font-size: 2.5vw;
+    width: 40vw;
+    text-align: right;
+}
+
+footer{
+    height: 30vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dados{
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly
+
+    
+}
+
+#local{
+    width: 35vw;
+    margin-right: 2vw;
+}
+
+h3{
+    padding-left: 0;
+    margin-bottom: 2vh;
+    font-size: 2vw;
+}
+
+h4{
+    font-weight: bold;
+    font-size: large;
+}
