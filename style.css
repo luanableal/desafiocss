@@ -8,8 +8,9 @@
     
 }
 
+/*body*/
 body{
-    background: linear-gradient(to top right,rgba(1, 1, 59, 0.90), rgba(95, 93, 93, 0.9)),
+    background: linear-gradient(to top right,rgba(1, 1, 44, 0.9), rgba(134, 133, 133, 0.9)),
     url(./assets/2montanha-grande.jpg);
     background-position: center;
     background-size: cover;
@@ -43,6 +44,12 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration:underline;
+  }
+
+
+  /*main*/
 main{
     height: 55vh;
     width: 100vw;
@@ -58,32 +65,26 @@ h1{
 
 
 
-.meio{
+.midle{
     display: flex;
     width: 42vw;
     justify-content: space-between;
 }
 
-.linha{
+.line{
     display: flex;
     justify-content: space-between;
     width: 18vw;
 }
 
 
-#circulo{
-    width: 5vh;
-    height: 5vh;
-    background-color: rgb(247, 240, 232);
-    border-radius: 50%;
-}
-
-#data{
+#date{
     font-size: 2.5vw;
     width: 40vw;
     text-align: right;
 }
 
+/*footer*/
 footer{
     height: 30vh;
     display:flex;
